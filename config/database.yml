@@ -18,11 +18,6 @@ default: &default
 
 development:
   <<: *default
-  #database: blog_development
-  #username:
-  #password:
-  #host:
-  #port:
 
 test:
   adapter: sqlite3
